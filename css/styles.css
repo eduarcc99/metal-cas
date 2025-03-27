@@ -11456,6 +11456,18 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+/* tamaño de las imajenes que sean iguales en todos los proyectos */
+
+#portfolio .portfolio-item img {
+  width: 100%; /* Ajusta el ancho al contenedor */
+  height: auto; /* Mantiene la proporción original */
+  max-height: 300px; /* Ajusta esto según el tamaño que necesites */
+  object-fit: contain; /* Evita el recorte */
+  display: block;
+  border-radius: 5px; /* Opcional: bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .timeline {
   position: relative;
   padding: 0;
